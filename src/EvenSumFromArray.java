@@ -12,6 +12,6 @@ public class EvenSumFromArray {
         }
         System.out.println(sum);
        int sumWithStream = Arrays.stream(arr).filter(i->i%2==0).sum();
-       System.out.println("Sume using Stream: "+sumWithStream);
+       System.out.println("Sum using Stream: "+sumWithStream);
     }
 }

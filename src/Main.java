@@ -39,7 +39,7 @@ public class Main {
         System.out.println("Max number is:"+max);
         Arrays.stream(Arrays.stream(arr).toArray()).max().ifPresent(System.out::println);
 
-        System.out.println("Find max nuber of char repeated in a sentence");
+        System.out.println("Find max number of char repeated in a sentence");
         String sen="My Name is Harshal ssssSalunke";
         sen=sen.toLowerCase().replaceAll(" ","");
         HashMap<Character,Integer> charCount=new HashMap<>();
